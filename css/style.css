@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* MARK: MaterializeCSS Overrides */
+.sidenav {
+    width: 230px !important;
+
+}
+
+.card-content {
+    height: 80% !important;
+}
+
+.card-action {
+    height: 20% !important;
+}
+/* END: MaterializeCSS Overrides */
+
+.profile-picture {
+    max-width: 300px;
+}
+
+#Banner {
+    margin-top: 30px;
+}
+
+.experience-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+@media (max-width: 415px) {
+    .experience-wrapper {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 374px) {
+    .brand-logo {
+        font-size: 1.9rem !important;
+    }
+}
+
+.experience-card {
+    width: 280px !important;
+    height: 280px !important;
+    max-height: 280px !important;
+    margin: 15px !important;
+}
+
+.experience-img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10%;
+}
+
+#ConnectWrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 165px;
+}
